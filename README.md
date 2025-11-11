@@ -28,23 +28,6 @@ A modern, responsive website for luxury Lamborghini car rentals in Monaco. This 
 | **Icons** | Font Awesome |
 | **Build Tools** | Node.js, npm, Gulp |
 
-- **HTML5** - Semantic markup
-- **CSS3** (SCSS) - Styling with Sass preprocessor
-- **JavaScript** (jQuery) - DOM manipulation and AJAX
-- **Bootstrap** - Grid system and utilities
-- **Slick Slider** - Image/content sliders
-- **WOW.js** - Scroll animations
-- **Animate.css** - CSS animation library
-- **Parallax.js** - Parallax scrolling effects
-- **Font Awesome** - Icon library
-- **jQuery UI** - UI components
-- **jQuery Mask Plugin** - Input masking
-
-## Prerequisites
-
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Node.js (v14 or higher) and npm
-- Gulp (for SCSS compilation)
 
 ## Getting Started
 
