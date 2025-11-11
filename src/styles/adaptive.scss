@@ -1,0 +1,1211 @@
+
+@media screen and (max-width: 1115px) {
+  .callback, .order {
+    left: -383px;
+  }
+  .slider-clients {
+    .slick-prev {
+      //left: 400px;
+    }
+
+    .slick-next {
+      //right: 423px;
+    }
+
+  }
+  .footer .time__wrap {
+    margin-right: 230px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main__image-car-img {
+    top: -23px;
+    left: -30px;
+  }
+  .description__image-man-img {
+    left: -310px;
+  }
+  .description__image-car-img {
+    left: -590px;
+  }
+  .description__image-man-img {
+    top: -415px;
+    left: -235px;
+    width: 750px;
+  }
+  .description__image-car-img {
+    width: 650px;
+  }
+  .callback, .order {
+    left: -368px;
+  }
+  .order__form--success {
+    //width: 1000px;
+  }
+  .slider-clients {
+    .slick-prev {
+      //left: 380px;
+    }
+
+    .slick-next {
+      //right: 403px;
+    }
+  }
+  .footer .time__wrap {
+    margin-right: 190px;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .title {
+    font-size: 32px;
+  }
+  .header {
+    padding: 15px 0 15px;
+
+    .menu__list {
+      width: 650px;
+    }
+  }
+  .main {
+    padding-top: 75px;
+    padding-bottom: 270px;
+  }
+  .main__info {
+    max-width: 460px;
+
+    .main__title {
+      font-size: 40px;
+    }
+  }
+  .main__image-car-img {
+    top: -120px;
+  }
+
+  .description {
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    &__info .description__subtitle {
+      margin-bottom: 45px;
+    }
+
+    &__image-man-img {
+      top: -395px;
+      width: 700px;
+    }
+
+    &__image-car-img {
+      width: 630px;
+      left: -530px;
+    }
+  }
+  .callback, .order {
+    left: -313px;
+  }
+  .rental {
+    margin-bottom: 130px;
+  }
+  .advantage {
+    margin-bottom: 90px;
+
+    &__title {
+      margin-bottom: 45px;
+    }
+
+    &__item-text {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  }
+  .feedback {
+    margin-bottom: 220px;
+  }
+
+  .sliders {
+    margin-bottom: 125px;
+  }
+
+  .slider-clients {
+    &__text {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    //.slick-list.draggable {
+    //  width: 980px;
+    //}
+
+    .slick-prev,
+    .slick-next {
+      top: 235px;
+      //left: 360px;
+    }
+    //
+    //.slick-next {
+    //  top: 256px;
+    //  right: 383px;
+    //}
+  }
+  .contacts__title {
+    margin-bottom: 85px;
+  }
+  .footer .time__wrap {
+    margin-right: 145px;
+  }
+}
+@media screen and (max-width: 1016px) {
+  .slider-clients {
+    .slick-prev,
+    .slick-next {
+      top: 256px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    .menu__list {
+      width: 600px;
+    }
+  }
+  .main__image-car-img {
+    top: -100px;
+  }
+  .callback, .order {
+    left: -268px;
+  }
+  .order__form--success {
+    //width: 970px;
+    font-size: 25px;
+
+    span {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+  }
+  .contacts__city-1 {
+    top: 270px;
+  }
+  .contacts__city-2 {
+    top: 160px;
+    left: 195px;
+  }
+  .contacts__city-3 {
+    top: 40px;
+    left: 365px;
+  }
+  .contacts__image-inner {
+    top: 85px;
+    left: 167px;
+  }
+  .footer .time__wrap {
+    margin-right: 125px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .description__info {
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+
+    .description__text {
+      font-size: 14px;
+      //width: 430px;
+    }
+  }
+  .description__image-man-img {
+    top: -375px;
+    width: 690px;
+  }
+  .description__image-car-img {
+    width: 540px;
+    left: -460px;
+  }
+  .callback, .order {
+    left: -248px;
+  }
+  .slider-clients {
+    //.slick-list.draggable {
+    //  width: 880px;
+    //}
+
+    .slick-prev {
+      left: 337px;
+    }
+
+    .slick-next {
+      right: 360px;
+    }
+  }
+  .contacts__image-img {
+    width: 96%;
+  }
+  .footer__logo {
+    margin-right: 140px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header {
+    .menu__list {
+      width: 550px;
+    }
+  }
+  .main__image-car-img {
+    top: -70px;
+  }
+  .description__info .description__text {
+    //width: 420px;
+  }
+
+  .description__image-man-img {
+    top: -350px;
+    width: 670px;
+  }
+  .callback, .order {
+    left: -218px;
+  }
+  .order__form--success {
+    //width: 920px;
+  }
+  .contacts__city-3 {
+    left: 340px;
+  }
+  .footer {
+    &__logo {
+      margin-right: 120px;
+    }
+
+    .time__wrap {
+      width: 268px;
+      margin-right: 120px;
+    }
+
+    .time__block:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .address__inner:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &__social-links {
+      margin-top: -60px;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+
+  .description__info {
+    .description__text {
+      //width: 395px;
+    }
+
+    .description__subtitle {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .callback, .order {
+    left: -188px;
+  }
+  .order__form--success {
+    //width: 890px;
+  }
+  .advantage__item-title {
+    font-size: 18px;
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 307px;
+    }
+
+    .slick-next {
+      right: 330px;
+    }
+  }
+
+  .contacts__link {
+    font-size: 18px;
+
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+  .footer {
+    &__logo {
+      margin-right: 105px;
+    }
+
+    .time__wrap {
+      width: 260px;
+      margin-right: 105px;
+    }
+
+    .time__block:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .address__inner:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &__social-links {
+      margin-top: -60px;
+    }
+  }
+}
+@media screen and (max-width: 908px) {
+  .slider {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next{
+      top: 210px;
+    }
+  }
+  .slider-clients {
+    .slick-prev,
+    .slick-next {
+      top: 277px;
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .header {
+    .menu__list {
+      width: 490px;
+    }
+  }
+  .main__image-car-img {
+    top: -40px;
+  }
+  .description__info .description__text {
+    //width: 360px;
+  }
+  .description__image-man-img {
+    width: 640px;
+  }
+  .description__image-car-img {
+    width: 515px;
+    left: -430px;
+  }
+  .callback, .order {
+    left: -148px;
+  }
+  .order__form--success {
+    //width: 850px;
+  }
+
+  .slider-clients {
+    //.slick-list.draggable {
+    //  width: 800px;
+    //}
+
+    .slick-prev {
+      left: 267px;
+      //top: 277px;
+    }
+
+    .slick-next {
+      right: 290px;
+      //top: 277px;
+    }
+  }
+  .contacts__image-img {
+    left: -80px;
+  }
+  .contacts__city-1,
+  .contacts__city-3 {
+    display: none;
+  }
+  .contacts__city-2 {
+    top: 141px;
+    left: 54px;
+  }
+  .contacts__image-inner {
+    top: 64px;
+    left: 27px;
+  }
+  .footer {
+    &__logo {
+      margin-right: 80px;
+    }
+
+    .time__wrap {
+      width: 260px;
+      margin-right: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .description__info {
+    .description__text {
+      //width: 347px;
+    }
+
+    .description__subtitle {
+
+      font-size: 18px;
+    }
+  }
+  .callback, .order {
+    left: -118px;
+  }
+  .order__form--success {
+    //width: 800px;
+  }
+  .advantage__item-title, .contacts__link {
+    font-size: 15px;
+  }
+  .slider {
+    //.slick-arrow.slick-prev,
+    //.slick-arrow.slick-next {
+    //  top: 200px;
+    //}
+  }
+  .slider-clients {
+    //.slick-prev {
+    //  left: 277px;
+    //}
+    //
+    //.slick-next {
+    //  right: 300px;
+    //}
+  }
+
+  .footer {
+    &__logo {
+      margin-right: 70px;
+    }
+
+    .time__wrap {
+      width: 255px;
+      margin-right: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .header .menu__list {
+    width: 450px;
+  }
+  .main__info .main__title {
+    font-size: 36px;
+  }
+  .description__image-man-img {
+    width: 620px;
+    top: -300px;
+  }
+  .advantage__item:not(:last-child) {
+    margin-right: 90px;
+  }
+  .slider-clients {
+    //.slick-prev {
+    //  left: 257px;
+    //}
+    //
+    //.slick-next {
+    //  right: 280px;
+    //}
+  }
+  .contacts__title {
+    margin-bottom: 55px;
+  }
+  .contacts__image {
+    //width: 650px;
+  }
+  .footer {
+    &__logo {
+      margin-right: 70px;
+    }
+
+    .time__wrap {
+      width: 250px;
+      margin-right: 75px;
+    }
+  }
+}
+@media screen and (max-width: 809px) {
+  .slider-clients {
+    .slick-prev,
+    .slick-next {
+      top: 298px;
+    }
+  }
+}
+@media screen and (max-width: 805px) {
+  .header__burger {
+    display: block;
+
+  }
+  .header {
+    .menu {
+      display: none;
+      position: fixed;
+      width: 78%;
+      height: 268px;
+      background-color: rgb(24, 25, 26);
+      margin: 0;
+      top: 0;
+      right: 0;
+      z-index: 134;
+
+      &__list {
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 90px;
+        padding-left: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #000000;
+
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+
+        &::before {
+          content: 'МЕНЮ';
+          font-size: 25px;
+          font-family: Bebas, sans-serif;
+          color: rgb(248, 229, 165);
+          line-height: 0.6;
+          position: absolute;
+          top: 42.5px;
+          z-index: 3;
+        }
+
+        .menu__item {
+          .menu__link {
+            text-transform: none;
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            line-height: 1.071;
+          }
+        }
+      }
+    }
+
+    .header__bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 500px;
+      width: 100%;
+      background: rgba(0, 0, 0, .5);
+      z-index: 3;
+    }
+
+    .menu__open {
+      display: flex;
+      width: 78%;
+      height: 268px;
+      background-color: rgb(24, 25, 26);
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 22px;
+        z-index: 1;
+        border-bottom: 1px solid #FFDE46FF;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        z-index: 1;
+        border-bottom: 1px solid #FFDE46FF;
+        bottom: 22px;
+        right: 0;
+      }
+    }
+
+    .menu__close {
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 35px;
+      right: 20px;
+    }
+
+
+  }
+  .main__image-car-img {
+    top: -30px;
+    right: 110px;
+  }
+  .description {
+    &__wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+
+      &-right {
+        flex-direction: column-reverse;
+      }
+    }
+&__info{
+  .description__text {
+    margin-left: 0px;
+  }
+}
+    &__image-man {
+      height: 270px;
+
+
+      &-img {
+        left: -73px;
+        top: -287px;
+        width: 717px;
+      }
+    }
+
+    &__image-car {
+      height: 220px;
+
+
+      &-img {
+        left: 40px;
+        top: 35px;
+        width: 520px;
+      }
+    }
+  }
+  .callback, .order {
+    left: -90px;
+  }
+
+  .order__form--success {
+    //width: 770px;
+    font-size: 25px;
+  }
+
+  .advantage__item:not(:last-child) {
+    margin-right: 55px;
+  }
+.slider{
+  padding-top: 90px;
+}
+  .slider-clients {
+    //.slick-list.draggable {
+    //  width: 728px;
+    //}
+
+    .slick-prev {
+      left: 277px;
+      top: 215px;
+    }
+
+    .slick-next {
+      right: 300px;
+      top: 215px;
+    }
+  }
+
+  .contacts {
+    &__title {
+      margin-bottom: 50px;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 1.643;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__image-img {
+      left: 0;
+      top: -47px;
+      width: 270px;
+    }
+
+    &__city-2 .contacts__city-text {
+      display: none;
+    }
+
+    &__city-2 .contacts__city-point::after {
+      top: 4px;
+    }
+  }
+
+
+  .footer {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__social-links {
+      margin-top: 30px;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .time__wrap {
+      width: 270px;
+      margin-bottom: 40px;
+    }
+
+    .time__title,
+    .address__title {
+      color: rgb(248, 229, 165);
+      line-height: 1.311;
+    }
+
+    .address__title {
+      margin-bottom: 25px;
+    }
+
+    .time__block,
+    .contacts__link-footer {
+      font-size: 13px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cursor{
+    display: none;
+  }
+
+  .slider-clients {
+    .slick-prev,
+    .slick-next {
+      top: 235px;
+    }
+  }
+}
+@media screen and (max-width: 760px) {
+
+  .main {
+    padding-top: 45px;
+    padding-bottom: 220px;
+  }
+  .main__info {
+
+    .main__title {
+      font-size: 35px;
+      line-height: 1.143;
+      margin-bottom: 30px;
+    }
+
+    .main__subtitle {
+      font-size: 16px;
+      line-height: 1.438;
+    }
+
+  }
+  .main__image-car-img {
+    top: -10px;
+    overflow: hidden;
+  }
+  .main__image-palm-img {
+    display: none;
+  }
+  .description__info {
+    .description__title {
+      margin-bottom: 35px;
+      font-size: 30px;
+      line-height: 1.167;
+    }
+
+    .description__subtitle {
+      line-height: 1.278;
+      margin-bottom: 20px;
+
+      &::before {
+        width: 30px;
+        left: -50px;
+      }
+    }
+    .description__text{
+      line-height: 1.357;
+    }
+  }
+  .description__image-man-img {
+    left: -135px;
+    top: -240px;
+    width: 650px;
+  }
+  .description__image-car-img {
+    left: 30px;
+    top: 30px;
+    width: 425px;
+  }
+  .rental {
+    margin-bottom: 90px;
+  }
+  .callback, .order {
+    left: -28px;
+  }
+  .advantage__title{
+    font-size: 25px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  .sliders {
+    margin-bottom: 100px;
+  }
+  .feedback {
+    margin-bottom: 95px;
+  }
+  .feedback__title {
+    margin-bottom: 45px;
+  }
+  .slider-clients__text {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .slider-clients .slick-next {
+    right: 280px;
+    top: 247px;
+  }
+  .slider-clients .slick-prev {
+    left: 257px;
+    top: 247px;
+  }
+  .contacts__title {
+    margin-bottom: 45px;
+  }
+  .contacts__image {
+    //width: 320px;
+  }
+}
+
+  @media screen and (max-width: 724px) {
+    .slider {
+      .slick-arrow.slick-prev,
+      .slick-arrow.slick-next{
+        top: 175px;
+      }
+    }
+    .slider-clients {
+      .slick-prev,
+      .slick-next {
+        top: 272px;
+      }
+    }
+  }
+
+@media screen and (max-width: 680px) {
+  .callback, .order {
+    left: -15px;
+  }
+
+  .rental {
+    background-image: none;
+    margin-bottom: 0;
+
+    &__container {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    &__inner {
+      background-color: rgb(19, 20, 21);
+      box-shadow: 0px 7px 22.32px 1.68px rgba(103, 103, 103, 0.004);
+    }
+
+    &__action {
+      flex-direction: column;
+       .callback__btn {
+        margin-right: auto;
+      }
+    }
+  }
+  .order__form--success {
+    font-size: 22px;
+    margin: 0 -30px;
+    left: 60%;
+  }
+  .advantage{
+    &__item:not(:first-child){
+      margin-top: 40px;
+    }
+
+    &__list{
+      flex-direction: column;
+      padding-left: 0;
+    }
+  }
+  .slider {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next{
+      top: 150px;
+    }
+  }
+  .slider__btn{
+    width: 200px;
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 237px;
+      top: 270px;
+    }
+    .slick-next {
+      right: 260px;
+      top: 270px;
+    }
+  }
+}
+@media screen and (max-width: 679px) {
+  .slider-clients {
+    .slick-prev {
+      left: 167px;
+      top: 176px;
+    }
+    .slick-next {
+      right: 200px;
+      top: 176px;
+    }
+  }
+}
+@media screen and (max-width: 628px) {
+  .main__image-car-img {
+    top: 15px;
+  }
+  .description__image-man-img {
+    left: -180px;
+    top: -222px;
+    width: 570px;
+  }
+  .description__image-car-img {
+    left: -10px;
+    top: 25px;
+    width: 360px;
+  }
+  .callback, .order {
+    left: 0;
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 147px;
+      top: 199px;
+    }
+    .slick-next {
+      right:180px;
+      top: 199px;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .slider {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next{
+    display: none;
+    }
+  }
+
+  .wrap-text{
+    margin-bottom: 25px;
+  }
+.slider__btn {
+  width: 242px;
+}
+  .slider-clients {
+    .slick-prev {
+      left: 130px;
+    }
+    .slick-next {
+      right:150px;
+    }
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .main__image-car-img {
+    top: 70px;
+  }
+  .order, .callback {
+    &__form {
+      max-width: 500px;
+    }
+    &__list {
+      //padding-left: 40px;
+      //padding-right: 40px;
+    }
+    #start {
+      max-width: 36%;
+      margin-right: 11px;
+    }
+    #finish {
+      max-width: 37%;
+    }
+
+    &__input {
+      width: 290px;
+      font-size: 13px;
+      font-family: Roboto-Regular, sans-serif;
+      color: rgb(190, 175, 128);
+      line-height: 1.4;
+      background-color: inherit;
+      border: 1px solid rgb(70, 70, 70);
+      padding: 12px 15px;
+    }
+
+    &__notice {
+      width: 290px;
+    }
+    option {
+      font-size: 13px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 1.05;
+      margin-bottom: 40px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      margin-bottom: 25px;
+    }
+    &__item {
+      margin-bottom: 30px;
+      &-title {
+        font-size: 14px;
+      }
+    }
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 100px;
+      top: 224px;
+    }
+    .slick-next {
+      right:120px;
+      top: 224px;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .main__image-car-img {
+    top: 111px;
+  }
+  .description__image-man-img {
+    left: -90px;
+    top: -181px;
+    width: 460px;
+  }
+  .description__image-car-img {
+    top: 45px;
+    left: 20px;
+    width: 300px;
+  }
+  .order__form--success {
+    font-size: 20px;
+    margin: 0 -40px;
+  }
+
+  .order {
+    #start {
+      max-width: 41%;
+    }
+
+    #finish {
+      max-width: 42%;
+    }
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 70px;
+    }
+    .slick-next {
+      right:90px;
+    }
+  }
+}
+@media screen and (max-width: 421px) {
+  .main__image-car-img {
+    top: 150px;
+  }
+  .order {
+    #start {
+      max-width: 47%;
+    }
+
+    #finish {
+      max-width: 48%;
+    }
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 50px;
+      top: 247px;
+    }
+    .slick-next {
+      right:70px;
+      top: 247px;
+    }
+  }
+}
+@media screen and (max-width: 377px) {
+  .description__wrapper {
+    .description__info {
+    margin-bottom: 0;
+  }
+}
+  .description__image-man-img {
+    left: -49px;
+    top: -70px;
+    width: 350px;
+  }
+  .callback__list, .order__list {
+    padding-left: 40px;
+    padding-right: 45px;
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 30px;
+      top: 271px;
+    }
+    .slick-next {
+      right:50px;
+      top: 271px;
+    }
+  }
+}
+@media screen and (max-width: 341px) {
+  .description__image-car-img {
+    width: 280px;
+  }
+  .description__image-man-img {
+    left: -20px;
+    width: 320px;
+  }
+  .callback__list, .order__list {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .slider-clients {
+    .slick-prev {
+      left: 10px;
+      top: 295px;
+    }
+    .slick-next {
+      right:30px;
+      top: 295px;
+    }
+  }
+}

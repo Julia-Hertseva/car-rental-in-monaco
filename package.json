@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "vanilla-calendar-pro": "^3.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.90.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
