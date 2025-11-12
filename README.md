@@ -1,4 +1,4 @@
-# Car Rental Monaco - Lamborghini Rental Service
+# Car Rental in Monaco - Lamborghini Rental Service
 
 ![Project Banner](screenshots/banner.png)
 
