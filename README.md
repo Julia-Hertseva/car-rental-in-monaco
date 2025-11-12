@@ -1,9 +1,22 @@
 # Car Rental Monaco - Lamborghini Rental Service
 
+![Project Banner](screenshots/banner.png)
+
 A modern, responsive website for luxury Lamborghini car rentals in Monaco. This project features an interactive car catalog, booking forms, rental conditions, and contact information.
 
-## Live Demo
-🔗 [View Demo on GitHub Pages](https://yourusername.github.io/car-rental-monaco/)
+## Project Screenshots
+
+### 1. Main Page
+![Main Page](screenshots/demo1.png)
+
+### 2. Rental Section
+![Rental Section](screenshots/demo2.png)
+
+### 3. Fleet Carousel
+![Fleet Carousel](screenshots/demo3.png)
+
+### 4. Client Reviews
+![Client Reviews](screenshots/demo4.png)
 
 ## Features
 
