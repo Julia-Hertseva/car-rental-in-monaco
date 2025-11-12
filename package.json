@@ -1,8 +1,7 @@
 {
   "description": "",
   "dependencies": {
-    "jquery": "^3.7.1",
-    "vanilla-calendar-pro": "^3.0.5"
+    "jquery": "^3.7.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
