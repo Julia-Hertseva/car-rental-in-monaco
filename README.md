@@ -7,16 +7,19 @@ A modern, responsive website for luxury Lamborghini car rentals in Monaco. This 
 ## Project Screenshots
 
 ### 1. Main Page
-![Main Page](screenshots/demo1.png)
+![Main Page](screenshots/demo1.jpg)
 
 ### 2. Rental Section
-![Rental Section](screenshots/demo2.png)
+![Rental Section](screenshots/demo2.jpg)
 
 ### 3. Fleet Carousel
-![Fleet Carousel](screenshots/demo3.png)
+![Fleet Carousel](screenshots/demo3.jpg)
 
 ### 4. Client Reviews
-![Client Reviews](screenshots/demo4.png)
+![Client Reviews](screenshots/demo4.jpg)
+
+### 5. Contacts and Map
+![Contacts Section](screenshots/demo5.jpg)
 
 ## Features
 
