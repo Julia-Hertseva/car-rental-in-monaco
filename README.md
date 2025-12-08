@@ -47,15 +47,29 @@ A modern, responsive website for luxury Lamborghini car rentals in Monaco. This 
 
 ## Getting Started
 
+### Prerequisites
+- Node.js
+- npm
+- Gulp CLI (`npm install --global gulp-cli`)
+
+### Installation & Build
 1. Clone the repository:
   ```bash
   git clone https://github.com/your-username/car-rental-monaco.git
   cd car-rental-monaco
+  ```
 
 2. Install dependencies:
   ```bash
   npm install
+  ```
 
 3. Compile SCSS to CSS:
   ```bash
   gulp
+  ```
+
+4. Run locally:
+  ```bash
+  gulp watch
+  ```
