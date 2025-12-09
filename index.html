@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Car rental</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/hover-min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <link rel="stylesheet" href="./css/spinkit.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <button class="scroll-top" id="scrollTopButton">
+  <i class="fa-solid fa-chevron-up scroll-top__icon"></i>
+</button>
+
+    <div class="cursor">
+      <div class="icon"></div>
+      <div class="link"></div>
+    </div>
+
+    <header class="header">
+      <div class="container header__container">
+        <div class="logo">
+          <a class="logo__link" href="#">
+            <img class="logo__image" src="./images/logo.png" alt="CAR Rental logo - sports car emblem" />
+            <span>CAR Rental</span>
+          </a>
+        </div>
+
+        <div class="header__burger" id="burger">
+          <img
+            class="header__burger-image"
+            src="./images/burger-menu.svg"
+            alt="menu"
+          />
+        </div>
+
+        <nav class="menu" id="menu">
+          <div class="menu__close">
+            <img
+              class="menu__close-image"
+              src="./images/menu-close.svg"
+              alt="close"
+            />
+          </div>
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#main" data-icon="main">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#car-park" data-icon="carPark"
+                >Fleet</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#rental" data-icon="condition"
+                >Conditions</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#contacts" data-icon="contacts"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="container main__container">
+        <div class="main__info wow animate__backInDown">
+          <h1 class="main__title title">
+            The easiest and fastest way to rent
+            <span>Lamborghini in Monaco</span>
+          </h1>
+          <p class="main__subtitle">
+            If you rent a car for 7 days or more, you get a 20% discount
+          </p>
+        </div>
+
+        <div class="main__image-car">
+          <img
+            class="main__image-car-img wow animate__backInRight"
+            src="./images/main-car.png"
+            alt="Lamborghini"
+          />
+        </div>
+
+        <div class="main__image-palm">
+          <img
+            class="main__image-palm-img"
+            src="./images/bg-main-palm.png"
+            alt="Palm"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="description" id="description">
+      <div class="container description__container">
+        <h2 class="description__title title wow animate__fadeIn">
+          <span>Legendary Lamborghini</span> for legendary people
+        </h2>
+
+        <div class="description__wrapper">
+          <div class="description__info">
+            <h3 class="description__subtitle">
+              Show off on the streets of Monaco
+            </h3>
+            <p class="description__text">
+              Behind the wheel of one of our Lamborghini in Monaco, you are sure
+              to attract the attention of those around you.
+              <span>Select Lamborghini</span> Huracan in bright green, equipped
+              with a 10-cylinder engine, or the Lamborghini Aventador coupe,
+              whose 12-cylinder engine allows it to develop
+              <span>power 700 hp</span>
+              The ferocious Aventador seems to transcend the boundaries of time,
+              accelerating to 100 km/h in just 2.9 seconds. But be careful —
+              once you reach the maximum speed of 350 km/h, you risk getting a
+              ticket. This dream car can be rented for about $1,200 per day. Put
+              the top down and
+              <span>enjoy the attention</span> you get from those around you.
+            </p>
+          </div>
+          <div class="description__image-man wow animate__backInLeft">
+            <img
+              class="description__image-man-img"
+              src="./images/man.png"
+              alt="Man"
+            />
+          </div>
+        </div>
+
+        <div class="description__wrapper description__wrapper-right">
+          <div class="description__image-car">
+            <img
+              class="description__image-car-img wow animate__backInLeft"
+              src="./images/grey-car.png"
+              alt="Lamborghini Aventador"
+            />
+          </div>
+          <div class="description__info">
+            <h3 class="description__subtitle">
+              Night drive in Lamborghini Aventador
+            </h3>
+            <p class="description__text description__text-right">
+              <span>Turn the Lamborghini Aventador into your guide</span> to the
+              best bars and restaurants in Monaco. The diversity and mix of
+              cultures is clearly evident in this city: English or South
+              African-style decor, live music or electronic beats. The only
+              thing these nightspots have in common is that they are all The
+              only thing that all of the local nightspots have in common is that
+              they are all open from dusk till dawn.
+              <span>When renting a Lamborghini in Monaco</span>, remember the
+              words of the great Coco Chanel: “The best things in life are free,
+              and the luxurious ones are expensive.” Just remember: all those
+              fines you bring back from Monaco are just souvenirs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="parallax-window"
+      data-parallax="scroll"
+      data-image-src="./images/parallax-wallpaper.png"
+    ></div>
+
+    <section class="rental" id="rental">
+      <div class="container rental__container">
+        <div class="rental__inner">
+          <h2 class="rental__title title wow animate__flash">
+            <span>How to rent</span> Lamborghini in Monaco?
+          </h2>
+          <p class="rental__text">
+            The easiest and fastest way
+            <span>to reserve a car</span> is to call us and ask any questions
+            you may have. Alternatively, select the car you like on our website,
+            <span>fill out a special form and wait for a call</span> from our
+            representatives. Our consultants will inform you about the cost and
+            the documents required for rental.
+          </p>
+
+          <div class="rental__action">
+            <button class="btn callback__btn hvr-back-pulse">
+              Order a call
+            </button>
+            <button class="btn form__btn hvr-shutter-out-horizontal">
+              Fill out a form
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="order__form order__form--success">
+        <span>Thank you!</span>
+        <p>We will contact you shortly!</p>
+      </div>
+    </section>
+
+    <div class="callback">
+      <form class="callback__form" id="callbackForm" method="post" action="#">
+        <h2 class="order__title title">
+          <span>Order your dream car</span> already today
+        </h2>
+
+        <div class="order__list">
+          <div class="order__item grid">
+            <label for="callback-name" class="visually-hidden">Your name</label>
+            <input
+              class="order__input order__input-1 g-col-6"
+              type="text"
+              id="callback-name"
+              name="callback-name"
+              placeholder="Your name"
+              required
+            />
+            <div class="error-input error-input-1">Please enter your name</div>
+            
+            <label for="callback-phone" class="visually-hidden">Your phone number</label>
+            <input
+              class="order__input g-col-6"
+              type="tel"
+              id="callback-phone"
+              name="callback-phone"
+              placeholder="Your phone number"
+              required
+            />
+            <div class="error-input error-input-1">
+              Please enter your phone number
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn order__btn hvr-box-shadow-inset"
+          id="callback-button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <div class="order">
+      <form class="order__form" id="orderForm" method="post" action="#">
+        <h2 class="order__title title">
+          <span>Order your dream car</span> already today
+        </h2>
+        <p class="order__subtitle">Rental details</p>
+        <div class="order__list">
+          <fieldset class="order__item grid">
+            <legend class="order__item-title">1. Application data</legend>
+
+            <label for="selectCar" class="visually-hidden">Select a car</label>
+            <select
+              class="order__input order__input-1 g-col-12"
+              id="selectCar"
+              name="car"
+              required
+            >
+              <option value="" disabled selected>Select a car</option>
+              <option value="Lamborghini Aventador SVJ (green)">
+                Lamborghini Aventador SVJ (green)
+              </option>
+              <option value="Lamborghini Aventador SVJ (yellow)">
+                Lamborghini Aventador SVJ (yellow)
+              </option>
+              <option value="Lamborghini Aventador S Roadster (orange)">
+                Lamborghini Aventador S Roadster (orange)
+              </option>
+              <option value="Lamborghini Aventador SVJ Roadster (gold)">
+                Lamborghini Aventador SVJ Roadster (gold)
+              </option>
+            </select>
+            <div class="error-input">Please choose a car to rent</div>
+
+            <label for="start" class="visually-hidden">Rental start date</label>
+            <input
+              class="order__input order__input-1 g-col-6"
+              type="text"
+              id="start"
+              name="start-date"
+              placeholder="Start date"
+              readonly
+              required
+            />
+            <div class="error-input">
+              Please indicate the start date of the rental
+            </div>
+
+            <label for="finish" class="visually-hidden">Rental end date</label>
+            <input
+              class="order__input order__input-1 g-col-6"
+              type="text"
+              id="finish"
+              name="end-date"
+              placeholder="End date"
+              readonly
+              required
+            />
+            <div class="error-input">
+              Please indicate the end date of the rental
+            </div>
+
+            <label for="start-city" class="visually-hidden"
+              >Starting location</label
+            >
+            <select
+              class="order__input g-col-12"
+              id="start-city"
+              name="start-city"
+              required
+            >
+              <option value="" disabled selected>
+                Where are you traveling from?
+              </option>
+              <option value="Monaco">Monaco</option>
+              <option value="Monte Carlo">Monte Carlo</option>
+              <option value="Saint-Roman">Saint-Roman</option>
+              <option value="Larvotto">Larvotto</option>
+              <option value="Saint-Michel">Saint-Michel</option>
+            </select>
+            <div class="error-input">
+              Please choose the starting point of your journey
+            </div>
+          </fieldset>
+
+          <fieldset class="order__item">
+            <legend class="order__item-title">2. Personal information</legend>
+
+            <label for="name" class="visually-hidden">Your name</label>
+            <input
+              class="order__input order__input-1"
+              type="text"
+              name="name"
+              placeholder="Your name"
+              id="name"
+              required
+            />
+            <div class="error-input">Please enter your name</div>
+
+            <label for="phone-number" class="visually-hidden"
+              >Your phone number</label
+            >
+            <input
+              class="order__input order__input-1"
+              type="tel"
+              name="phone"
+              placeholder="Your phone number"
+              id="phone-number"
+              required
+            />
+            <div class="error-input">Please enter your phone number</div>
+
+            <label for="email" class="visually-hidden">Your email</label>
+            <input
+              class="order__input"
+              type="email"
+              name="email"
+              placeholder="Your e-mail"
+              id="email"
+              required
+            />
+            <div class="error-input">Please enter your email address</div>
+          </fieldset>
+
+          <div class="order__item">
+            <p class="order__item-title">3. Message (optional)</p>
+
+            <label for="message" class="visually-hidden">Your message</label>
+            <textarea
+              class="order__input"
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="Please enter your message (optional)"
+            ></textarea>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="btn order__btn hvr-box-shadow-inset"
+          id="form-button"
+        >
+          Submit an application
+        </button>
+        <p class="order__notice">
+          Providing your information constitutes consent to the processing of
+          your personal data in accordance with our privacy policy
+        </p>
+      </form>
+    </div>
+
+    <section class="advantage" id="advantages">
+      <div class="container advantage__container">
+        <h2 class="advantage__title title wow animate__fadeInDown">
+          <span>Advantages</span> of renting from us
+        </h2>
+
+        <ul class="advantage__list">
+          <li class="advantage__item">
+            <div class="shell">
+              <img
+                class="advantage__image"
+                src="./images/icon-airport.png"
+                alt="Airplane icon representing airport delivery"
+              />
+              <h3 class="advantage__item-title">
+                Delivery to the airport or hotel
+              </h3>
+            </div>
+            <p class="advantage__item-text">
+              We will deliver the car to any address convenient for you
+            </p>
+            <p class="advantage__item-text">
+              You can return the car in any city or country
+            </p>
+          </li>
+
+          <li class="advantage__item">
+            <div class="shell">
+              <img
+                class="advantage__image"
+                src="./images/icon-travel-visa.png"
+                alt="Passport with visa stamp icon representing flexible payment"
+              />
+              <h3 class="advantage__item-title">Flexible payment terms</h3>
+            </div>
+            <p class="advantage__item-text">
+              You can make an advance payment online or pay by cash
+            </p>
+            <p class="advantage__item-text">No hidden fees or commissions</p>
+          </li>
+
+          <li class="advantage__item">
+            <div class="shell">
+              <img
+                class="advantage__image"
+                src="./images/icon-head.png"
+                alt="Head with gears icon representing 24/7 support"
+              />
+              <h3 class="advantage__item-title">24/7 support after booking</h3>
+            </div>
+            <p class="advantage__item-text">
+              Round-the-clock assistance and consultation on any issue
+            </p>
+            <p class="advantage__item-text">
+              Professional support in various foreign languages
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sliders" id="car-park">
+      <div class="container sliders__container">
+        <h2 class="sliders__title title">Our<span> fleet</span></h2>
+        <div class="slider">
+          <!-- 1 -->
+          <article class="slider-item">
+            <div style="height: 510px">
+              <img
+                src="./images/car1.png"
+                class="d-block w-100 h-auto"
+                alt="Green Lamborghini Aventador SVJ"
+              />
+            </div>
+            <div
+              class="slider-item__inner d-flex flex-sm-row flex-column justify-content-between align-items-sm-center align-items-start"
+            >
+              <div class="wrap-text">
+                <p class="card-name mb-2" data-product="1">
+                  Lamborghini Aventador SVJ
+                </p>
+                <p class="card-price mb-0">Daily rental cost: 1 280 $</p>
+              </div>
+              <button class="btn slider__btn hvr-icon-bounce">
+                Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="slider-item">
+            <div style="height: 510px">
+              <img
+                src="./images/car2.png"
+                class="d-block w-100 h-auto"
+                alt="Yellow Lamborghini Aventador SVJ"
+              />
+            </div>
+            <div
+              class="slider-item__inner d-flex flex-sm-row flex-column justify-content-between align-items-center"
+            >
+              <div class="wrap-text">
+                <p class="card-name mb-2" data-product="2">
+                  Lamborghini Aventador SVJ
+                </p>
+                <p class="card-price mb-0">Daily rental cost: 1 420 $</p>
+              </div>
+              <button class="btn slider__btn hvr-icon-bounce">
+                Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="slider-item">
+            <div style="height: 510px">
+              <img
+                src="./images/car3.png"
+                class="d-block w-100 h-auto"
+                alt="Orange Lamborghini Aventador S Roadster"
+              />
+            </div>
+            <div
+              class="slider-item__inner d-flex flex-sm-row flex-column justify-content-between align-items-center"
+            >
+              <div class="wrap-text">
+                <p class="card-name mb-2" data-product="3">
+                  Lamborghini Aventador S Roadster
+                </p>
+                <p class="card-price mb-0">Daily rental cost: 1 380 $</p>
+              </div>
+              <button class="btn slider__btn hvr-icon-bounce">
+                Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="slider-item">
+            <div style="height: 510px">
+              <img
+                src="./images/car4.png"
+                class="d-block w-100 h-auto"
+                alt="Orange Lamborghini Aventador S Roadster"
+              />
+            </div>
+            <div
+              class="slider-item__inner d-flex flex-sm-row flex-column justify-content-between align-items-center"
+            >
+              <div class="wrap-text">
+                <p class="card-name mb-2" data-product="4">
+                  Lamborghini Aventador SVJ Roadster
+                </p>
+                <p class="card-price mb-0">Daily rental cost: 1 350 $</p>
+              </div>
+              <button class="btn slider__btn hvr-icon-bounce">
+                Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container feedback__container">
+        <h2 class="feedback__title title wow animate__fadeInTopRight">
+          <span>What say </span>our customers
+        </h2>
+        <div class="slider-clients">
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img src="./images/client1.png" class="d-block w-100" alt="Customer Alex smiling" />
+              </div>
+              <p class="slider-clients__name">Alex</p>
+            </div>
+            <p class="slider-clients__text text-white">
+              It was awesome and unforgettable! Gorgeous cars that are a joy to
+              drive, very friendly staff. I chose what I needed and am
+              completely thrilled. Thank you!
+            </p>
+          </div>
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img
+                  src="./images/client2.png"
+                  class="d-block w-100 position-relative"
+                  alt="Customer Evan in sunglasses"
+                />
+              </div>
+              <p class="slider-clients__name">Evan</p>
+            </div>
+
+            <p class="slider-clients__text text-white">
+              If there is a best place with cool cars, it's definitely here! I
+              had a great time during the rental period. I definitely recommend
+              it.
+            </p>
+          </div>
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img
+                  src="./images/client3.png"
+                  class="d-block w-100 position-relative"
+                  alt="Customer John with happy expression"
+                />
+              </div>
+              <p class="slider-clients__name">John</p>
+            </div>
+
+            <p class="slider-clients__text text-white">
+              I really liked the cars and the service. Everything is so well
+              organized and so personable that it can't help but leave you with
+              a bunch of positive emotions. I'm thrilled!
+            </p>
+          </div>
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img
+                  src="./images/client1.png"
+                  class="d-block w-100 position-relative"
+                  alt="Customer Max smiling"
+                />
+              </div>
+              <p class="slider-clients__name">Max</p>
+            </div>
+
+            <p class="slider-clients__text text-white">
+              The car was delivered to the villa at our request. Thank you very
+              much for the excellent service! I RECOMMEND IT!!!
+            </p>
+          </div>
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img
+                  src="./images/client2.png"
+                  class="d-block w-100 position-relative"
+                  alt="Customer James looking confident"
+                />
+              </div>
+              <p class="slider-clients__name">James</p>
+            </div>
+
+            <p class="slider-clients__text text-white">
+              I am especially grateful for their professionalism. This is my
+              third time renting from them, and the service is always excellent.
+              In my opinion, they are one of the best car rental companies, with
+              clean cars. Really, nothing to complain about.
+            </p>
+          </div>
+          <div class="slider-clients__item">
+            <div class="d-flex align-items-center">
+              <div class="slider-clients__inner-img">
+                <img
+                  src="./images/client3.png"
+                  class="d-block w-100 position-relative"
+                  alt="Customer Nicholas giving thumbs up"
+                />
+              </div>
+              <p class="slider-clients__name">Nicholas</p>
+            </div>
+
+            <p class="slider-clients__text text-white">
+              Excellent service, everything was done quickly and without delay.
+              Reasonable prices. Thank you very much. I recommend it to
+              everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container contacts__container">
+        <h2 class="contacts__title title">How to <span> find </span>us</h2>
+        <div class="contacts__wrap">
+          <div class="contacts__info">
+            <a
+              class="contacts__link"
+              href="https://goo.gl/maps/x2XzUZjiECGP79Rw9"
+              >Scuderia Monte-Carlo, 5 Avenue, Monaco</a
+            >
+            <a class="contacts__link" href="tel:+442203204030"
+              >+44 220 320 4030</a
+            >
+            <a class="contacts__link" href="mailto:reservations@carental.com"
+              >reservations@carental.com</a
+            >
+          </div>
+
+          <div class="contacts__image wow animate__heartBeat">
+            <img class="contacts__image-img" src="./images/map.png" alt="Map" />
+            <div class="contacts__city contacts__city-1">
+              <div class="contacts__city-point"></div>
+              <p class="contacts__city-text">Fontvieille</p>
+            </div>
+
+            <div class="contacts__city contacts__city-2">
+              <div class="contacts__city-point"></div>
+              <p class="contacts__city-text">La Condamine</p>
+            </div>
+
+            <div class="contacts__city contacts__city-3">
+              <div class="contacts__city-point"></div>
+              <p class="contacts__city-text">Monte-Carlo</p>
+            </div>
+
+            <div class="contacts__image-inner">
+              <p class="contacts__image-text">Car Rental № 1</p>
+              <div class="contacts__image-stars">
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <span>(36)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="logo footer__logo">
+          <a class="logo__link" href="#">
+            <img src="./images/logo.png" alt="CAR Rental logo - sports car emblem" />
+            <span>CAR Rental</span>
+          </a>
+        </div>
+
+        <div class="footer__social-links">
+          <a class="footer__link" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="25"
+              height="25"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11 h4.205l-0.571,4H16v12H12z"
+              ></path>
+            </svg>
+          </a>
+          <a class="footer__link" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="23"
+              height="23"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M 8 5 C 6.355469 5 5 6.355469 5 8 L 5 24 C 5 25.644531 6.355469 27 8 27 L 24 27 C 25.644531 27 27 25.644531 27 24 L 27 8 C 27 6.355469 25.644531 5 24 5 Z M 21 8 L 24 8 L 24 11 L 21 11 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z M 7 14 L 10.34375 14 C 10.121094 14.625 10 15.300781 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 15.300781 21.878906 14.625 21.65625 14 L 25 14 L 25 24 C 25 24.566406 24.566406 25 24 25 L 8 25 C 7.433594 25 7 24.566406 7 24 Z"
+              ></path>
+            </svg>
+          </a>
+          <a class="footer__link" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="23"
+              height="23"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="time__wrap">
+          <h4 class="time__title footer-title">Opening hours</h4>
+          <div class="time__block">
+            <p>Monday to Friday</p>
+            <p>8:00 - 19:00</p>
+          </div>
+          <div class="time__block">
+            <p>Roadside assistance</p>
+            <p>24 hours a day</p>
+          </div>
+        </div>
+
+        <div class="address__wrap">
+          <h4 class="address__title footer-title">Contact us</h4>
+          <div class="address__inner">
+            <img
+              class="address__icon"
+              src="./images/phone-icon.png"
+              alt="icon of phone"
+            />
+            <a
+              class="contacts__link contacts__link-footer"
+              href="tel:+442203204030"
+              >+44 220 320 4030</a
+            >
+          </div>
+          <div class="address__inner">
+            <img
+              class="address__icon"
+              src="./images/email-icon.png"
+              alt="icon of email"
+            />
+            <a
+              class="contacts__link contacts__link-footer"
+              href="mailto:reservations@carental.com"
+              >reservations@carental.com</a
+            >
+          </div>
+          <div class="address__inner">
+            <img
+              class="address__icon"
+              src="./images/place-icon.png"
+              alt="icon of place"
+            />
+            <a
+              class="contacts__link contacts__link-footer"
+              href="https://goo.gl/maps/x2XzUZjiECGP79Rw9"
+              >Scuderia Monte-Carlo, 5 Avenue, Monaco</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="loader">
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/jquery-mask-plugin@1.14.16/dist/jquery.mask.min.js
+"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script src="./scripts/parallax.min.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
