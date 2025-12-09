@@ -1,15 +1,34 @@
 {
-  "description": "",
+  "name": "car-rental",
+  "version": "1.0.0",
+  "description": "Car Rental Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://Julia-Hertseva.github.io/car-rental-in-monaco/",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "jquery": "^3.7.1"
   },
   "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gh-pages": "^6.3.0",
     "gulp": "^4.0.2",
-    "gulp-concat-css": "^3.1.0",
-    "gulp-cssmin": "^0.2.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
     "gulp-rename": "^2.1.0",
     "gulp-replace": "^1.1.4",
     "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
     "gulp-useref": "^5.0.0",
     "sass": "^1.90.0",
     "slick-carousel": "^1.8.1"
