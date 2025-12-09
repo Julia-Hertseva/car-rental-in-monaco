@@ -1,0 +1,97 @@
+.feedback {
+  margin-bottom: 300px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+}
+
+.slider-clients {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  &__item {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  &__inner-img {
+    width: 45px;
+    height: 44px;
+    margin-right: 20px;
+  }
+
+  &__name {
+    font-size: 20px;
+    font-family: Roboto-Bold, sans-serif;
+    color: #fffffe;
+    line-height: 1.25;
+    margin-bottom: 0;
+  }
+
+  &__text {
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 1.5;
+  }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin-right: 20px;
+      margin-left: 0;
+      list-style: none;
+      width: 13px;
+      height: 13px;
+
+      &.slick-active button {
+        background-color: $accent-yellow;
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    button {
+      &:before {
+        font-size: 0;
+      }
+
+      border-width: 1px;
+      border-color: $accent-yellow;
+      border-style: solid;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 0;
+  }
+
+  .slick-prev {
+    z-index: 3;
+    left: 370px;
+    top: 276px;
+    width: 16px;
+    height: 29px;
+    background: url("../../images/next-left.png") no-repeat;
+    cursor: none;
+  }
+
+  .slick-next {
+    z-index: 3;
+    right: 390px;
+    top: 276px;
+    width: 16px;
+    height: 29px;
+    background: url("../../images/next-right.png") no-repeat;
+    cursor: none;
+  }
+}

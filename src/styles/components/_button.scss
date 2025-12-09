@@ -1,0 +1,19 @@
+.btn {
+  background-color: $accent-yellow;
+  width: 242px;
+  height: 54px;
+  font-size: 16px;
+  font-family: Roboto-Bold, sans-serif;
+  color: rgb(33, 32, 32);
+  line-height: 1.25;
+  outline: none;
+  border: none;
+}
+
+[type="button"]:not(:disabled) {
+  cursor: none;
+}
+
+button:not(:disabled) {
+  cursor: none;
+}

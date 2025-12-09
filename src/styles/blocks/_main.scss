@@ -1,0 +1,51 @@
+.main {
+  padding-top: 95px;
+  padding-bottom: 310px;
+  overflow: hidden;
+
+  &__container {
+    display: flex;
+    position: relative;
+  }
+
+  &__info {
+    max-width: 570px;
+    z-index: 1;
+    position: relative;
+
+    .main__title {
+      font-size: 60px;
+      line-height: 1.167;
+      margin-bottom: 50px;
+    }
+
+    .main__subtitle {
+      max-width: 300px;
+      font-size: 18px;
+      font-family: Roboto-Regular, sans-serif;
+      color: $primary-color;
+      line-height: 1.278;
+      padding-left: 15px;
+      border-left: 1px solid #ffde46ff;
+    }
+  }
+
+  &__image-car {
+    &-img {
+      max-width: 90%;
+      position: absolute;
+      top: -110px;
+      right: 10px;
+    }
+  }
+
+  &__image-palm {
+    &-img {
+      max-width: 100%;
+      position: absolute;
+      top: -93px;
+      right: 212px;
+      z-index: -1;
+    }
+  }
+}

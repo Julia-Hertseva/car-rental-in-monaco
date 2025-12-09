@@ -1,0 +1,37 @@
+body {
+  background-image: url("../../images/bg-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: #ffde46;
+  }
+}
+
+.hvr-back-pulse:hover {
+  background: #ff9800;
+}
+
+.hvr-shutter-out-horizontal:before {
+  background: #ff9800;
+}
+
+.hvr-icon-bounce:hover {
+  background-color: #ffde46;
+}
+
+.fa-thumbs-up::before {
+  content: "";
+}
+
+.slider__btn:hover .fa-thumbs-up::before {
+  content: "\f164";
+  margin-left: 5px;
+}
+
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+}

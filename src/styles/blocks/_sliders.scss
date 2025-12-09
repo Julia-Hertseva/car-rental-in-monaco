@@ -1,0 +1,65 @@
+.sliders {
+  margin-bottom: 175px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+}
+
+.slider {
+  position: relative;
+
+  .slider-item__inner {
+    margin-top: 40px;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1120;
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 0;
+  }
+
+  .slick-arrow.slick-prev {
+    left: 0;
+    background: url("../../images/next-left.png") no-repeat;
+    cursor: none;
+  }
+
+  .slick-arrow.slick-next {
+    right: 0;
+    background: url("../../images/next-right.png") no-repeat;
+    cursor: none;
+  }
+
+  &__btn {
+    border-radius: 0;
+    font-size: 20px;
+    bottom: 0;
+    right: 0;
+    cursor: none;
+  }
+
+  .card-name {
+    font-size: 20px;
+    font-family: Roboto-Bold, sans-serif;
+    color: $primary-color;
+  }
+
+  .card-price {
+    font-size: 20px;
+    font-family: Roboto-Regular, sans-serif;
+    color: $primary-color;
+  }
+}

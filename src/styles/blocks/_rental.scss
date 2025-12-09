@@ -1,0 +1,60 @@
+.rental {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 90px;
+  margin-bottom: 177px;
+  background: {
+    image: url("../../images/bg-rental.png");
+    repeat: no-repeat;
+    size: cover;
+  }
+
+  &__inner {
+    margin-left: auto;
+    max-width: 716px;
+    padding-top: 35px;
+    padding-bottom: 38px;
+    background-color: #221e1a33;
+    box-shadow: 0 7px 22.32px 1.68px #67676701;
+    backdrop-filter: blur(25px);
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 35px;
+    line-height: 0.857;
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-family: Roboto-Regular, sans-serif;
+    color: $primary-color;
+    line-height: 1.5;
+    max-width: 650px;
+    margin: 0 auto;
+
+    span {
+      color: $accent-color;
+    }
+  }
+
+  &__action {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+    .callback__btn {
+      margin-right: 20px;
+      cursor: none;
+    }
+
+    .form__btn {
+      background-color: inherit;
+      border: 1px solid $accent-yellow;
+      color: $primary-color;
+      cursor: none;
+    }
+  }
+}

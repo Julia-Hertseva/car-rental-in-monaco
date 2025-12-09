@@ -1,0 +1,135 @@
+.contacts {
+  background: {
+    image: url("../../images/bg-contacts.png");
+    repeat: no-repeat;
+  }
+  padding-top: 30px;
+
+  &__title {
+    font-size: 35px;
+    margin-bottom: 115px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    font-size: 20px;
+    font-family: Roboto-Regular, sans-serif;
+    color: $primary-color;
+    line-height: 1.05;
+
+    &:not(:last-child) {
+      margin-bottom: 55px;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__image {
+    position: relative;
+
+    &-img {
+      position: relative;
+      width: 100%;
+      top: -220px;
+      left: 40px;
+    }
+
+    &-inner {
+      @include flex-center;
+      position: absolute;
+      top: 103px;
+      left: 183px;
+      width: 149px;
+      padding: 10px 0;
+      flex-direction: column;
+      background-color: #ebe6e0;
+
+      &::before {
+        content: "";
+        border-left: 15px solid transparent;
+        border-top: 14px solid #ebe6e0;
+        border-right: 15px solid transparent;
+        position: absolute;
+        bottom: -12px;
+        left: 18px;
+      }
+    }
+
+    &-text {
+      font-size: 16px;
+      font-family: Roboto-Bold, sans-serif;
+      color: #463404;
+      line-height: 1.313;
+      margin-bottom: 0;
+    }
+
+    &-stars {
+      span {
+        font-size: 14px;
+        font-family: Roboto-Bold, sans-serif;
+        color: #725c21;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  &__city {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+
+    &-point {
+      border-radius: 50%;
+      border: 1px solid #fff3cb;
+      width: 13px;
+      height: 13px;
+      margin-right: 10px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background-color: #8a6211;
+        width: 5px;
+        height: 5px;
+        top: 8px;
+        left: 4px;
+      }
+    }
+
+    &-text {
+      margin-bottom: 0;
+    }
+
+    font-size: 12px;
+    font-family: Roboto-Regular, sans-serif;
+    color: #000000;
+    line-height: 1.667;
+
+    &-1 {
+      top: 315px;
+      left: 120px;
+    }
+
+    &-2 {
+      top: 180px;
+      left: 210px;
+
+      .contacts__city-point {
+        background-color: $accent-yellow;
+      }
+    }
+
+    &-3 {
+      top: 70px;
+      left: 390px;
+    }
+  }
+}

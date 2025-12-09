@@ -1,0 +1,11 @@
+.title {
+  font-size: 40px;
+  font-family: Bebas, sans-serif;
+  color: $primary-color;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  span {
+    color: $accent-color;
+  }
+}

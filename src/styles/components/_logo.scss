@@ -1,0 +1,19 @@
+.logo {
+  display: inline-block;
+
+  &__link {
+    @include flex-center;
+    flex-direction: column;
+  }
+
+  &__image {
+    width: 53px;
+    height: 34px;
+  }
+
+  span {
+    font-size: 18px;
+    font-family: Cochin, sans-serif;
+    color: $primary-color;
+  }
+}
