@@ -135,7 +135,7 @@
     color: #beaf80;
     line-height: 1.4;
     background-color: inherit;
-    border: 1px solid rgb(70, 70, 70);
+    border: 1px solid #464646;
     padding: 12px 15px;
 
     &::placeholder {
@@ -155,7 +155,7 @@
       color: $primary-color;
       line-height: 1.998;
       border-width: 1px;
-      border-color: rgb(119, 117, 117);
+      border-color: #777575;
       border-style: solid;
       background-color: rgb(24, 25, 26);
       padding: 15px;
@@ -167,7 +167,7 @@
     width: 351px;
     font-size: 13px;
     font-family: Roboto-Regular, sans-serif;
-    color: rgb(196, 191, 186);
+    color: #c4bfba;
     text-decoration: underline;
     line-height: 1.616;
     margin: 0 auto;
@@ -182,12 +182,12 @@
 .form__btn,
 .order__btn {
   margin: 0 auto 15px;
-  background-color: rgb(255, 222, 70);
+  background-color: $accent-yellow;
   width: 273px;
   height: 42px;
   font-size: 15px;
   font-family: Roboto-Bold, sans-serif;
-  color: rgb(33, 32, 32);
+  color: #212020;
   line-height: 1.4;
   border-radius: 0;
   cursor: none;

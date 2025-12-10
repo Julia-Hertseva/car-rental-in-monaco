@@ -3,24 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <title>Car rental</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="fontawesome/css/all.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/slick-theme.css" />
-    <link rel="stylesheet" href="css/hover-min.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/hover-min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
     />
 
-    <link rel="stylesheet" href="dist/style.min.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
 
     <link rel="stylesheet" href="css/spinkit.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <i class="fa-solid fa-chevron-up" id="button"></i>
+    <button class="scroll-top" id="scrollTopButton">
+  <i class="fa-solid fa-chevron-up scroll-top__icon"></i>
+</button>
 
     <div class="cursor">
       <div class="icon"></div>
@@ -28,11 +30,10 @@
     </div>
 
     <header class="header">
-      <div class="" id="header"></div>
       <div class="container header__container">
         <div class="logo">
           <a class="logo__link" href="#">
-            <img class="logo__image" src="images/logo.png" alt="flags" />
+            <img class="logo__image" src="./images/logo.png" alt="CAR Rental logo - sports car emblem" />
             <span>CAR Rental</span>
           </a>
         </div>
@@ -40,7 +41,7 @@
         <div class="header__burger" id="burger">
           <img
             class="header__burger-image"
-            src="images/burger-menu.svg"
+            src="./images/burger-menu.svg"
             alt="menu"
           />
         </div>
@@ -49,7 +50,7 @@
           <div class="menu__close">
             <img
               class="menu__close-image"
-              src="images/menu-close.svg"
+              src="./images/menu-close.svg"
               alt="close"
             />
           </div>
@@ -93,7 +94,7 @@
         <div class="main__image-car">
           <img
             class="main__image-car-img wow animate__backInRight"
-            src="images/main-car.png"
+            src="./images/main-car.png"
             alt="Lamborghini"
           />
         </div>
@@ -101,7 +102,7 @@
         <div class="main__image-palm">
           <img
             class="main__image-palm-img"
-            src="images/bg-main-palm.png"
+            src="./images/bg-main-palm.png"
             alt="Palm"
           />
         </div>
@@ -137,7 +138,7 @@
           <div class="description__image-man wow animate__backInLeft">
             <img
               class="description__image-man-img"
-              src="images/man.png"
+              src="./images/man.png"
               alt="Man"
             />
           </div>
@@ -147,7 +148,7 @@
           <div class="description__image-car">
             <img
               class="description__image-car-img wow animate__backInLeft"
-              src="images/grey-car.png"
+              src="./images/grey-car.png"
               alt="Lamborghini Aventador"
             />
           </div>
@@ -176,7 +177,7 @@
     <div
       class="parallax-window"
       data-parallax="scroll"
-      data-image-src="images/parallax-wallpaper.png"
+      data-image-src="./images/parallax-wallpaper.png"
     ></div>
 
     <section class="rental" id="rental">
@@ -206,138 +207,192 @@
       </div>
 
       <div class="order__form order__form--success">
-      <span>Thank you!</span>
-      <p>We will contact you shortly!</p>
-      <p />
-    </div>
+        <span>Thank you!</span>
+        <p>We will contact you shortly!</p>
+      </div>
     </section>
 
     <div class="callback">
-      <div class="callback__form">
+      <form class="callback__form" id="callbackForm" method="post" action="#">
         <h2 class="order__title title">
           <span>Order your dream car</span> already today
         </h2>
 
-        <ul class="order__list">
-          <li class="order__item grid">
+        <div class="order__list">
+          <div class="order__item grid">
+            <label for="callback-name" class="visually-hidden">Your name</label>
             <input
               class="order__input order__input-1 g-col-6"
               type="text"
               id="callback-name"
+              name="callback-name"
               placeholder="Your name"
+              required
             />
             <div class="error-input error-input-1">Please enter your name</div>
+            
+            <label for="callback-phone" class="visually-hidden">Your phone number</label>
             <input
               class="order__input g-col-6"
-              type="text"
+              type="tel"
               id="callback-phone"
+              name="callback-phone"
               placeholder="Your phone number"
+              required
             />
             <div class="error-input error-input-1">
               Please enter your phone number
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
         <button
           class="btn order__btn hvr-box-shadow-inset"
           id="callback-button"
+          type="submit"
         >
           Submit
         </button>
-      </div>
+      </form>
     </div>
 
     <div class="order">
-      <div class="order__form">
+      <form class="order__form" id="orderForm" method="post" action="#">
         <h2 class="order__title title">
           <span>Order your dream car</span> already today
         </h2>
         <p class="order__subtitle">Rental details</p>
-        <ul class="order__list">
-          <li class="order__item grid">
-            <p class="order__item-title">1. Application data</p>
-            <select class="order__input order__input-1 g-col-12" id="selectCar">
-              <option value="0" selected>Select a car</option>
-              <option value="1">Lamborghini Aventador SVJ (green)</option>
-              <option value="2">Lamborghini Aventador SVJ (yellow)</option>
-              <option value="3">
+        <div class="order__list">
+          <fieldset class="order__item grid">
+            <legend class="order__item-title">1. Application data</legend>
+
+            <label for="selectCar" class="visually-hidden">Select a car</label>
+            <select
+              class="order__input order__input-1 g-col-12"
+              id="selectCar"
+              name="car"
+              required
+            >
+              <option value="" disabled selected>Select a car</option>
+              <option value="Lamborghini Aventador SVJ (green)">
+                Lamborghini Aventador SVJ (green)
+              </option>
+              <option value="Lamborghini Aventador SVJ (yellow)">
+                Lamborghini Aventador SVJ (yellow)
+              </option>
+              <option value="Lamborghini Aventador S Roadster (orange)">
                 Lamborghini Aventador S Roadster (orange)
               </option>
-              <option value="4">
+              <option value="Lamborghini Aventador SVJ Roadster (gold)">
                 Lamborghini Aventador SVJ Roadster (gold)
               </option>
             </select>
             <div class="error-input">Please choose a car to rent</div>
+
+            <label for="start" class="visually-hidden">Rental start date</label>
             <input
               class="order__input order__input-1 g-col-6"
               type="text"
               id="start"
-              placeholder="Start"
+              name="start-date"
+              placeholder="Start date"
               readonly
+              required
             />
             <div class="error-input">
               Please indicate the start date of the rental
             </div>
+
+            <label for="finish" class="visually-hidden">Rental end date</label>
             <input
               class="order__input order__input-1 g-col-6"
               type="text"
               id="finish"
-              placeholder="End"
+              name="end-date"
+              placeholder="End date"
               readonly
+              required
             />
             <div class="error-input">
               Please indicate the end date of the rental
             </div>
-            <select class="order__input g-col-12" id="start-city">
-              <option value="" selected>Where are you traveling from?</option>
-              <option value="1">Monaco</option>
-              <option value="2">Monte Carlo</option>
-              <option value="3">Saint-Roman</option>
-              <option value="4">Larvotto</option>
-              <option value="5">Saint-Michel</option>
+
+            <label for="start-city" class="visually-hidden"
+              >Starting location</label
+            >
+            <select
+              class="order__input g-col-12"
+              id="start-city"
+              name="start-city"
+              required
+            >
+              <option value="" disabled selected>
+                Where are you traveling from?
+              </option>
+              <option value="Monaco">Monaco</option>
+              <option value="Monte Carlo">Monte Carlo</option>
+              <option value="Saint-Roman">Saint-Roman</option>
+              <option value="Larvotto">Larvotto</option>
+              <option value="Saint-Michel">Saint-Michel</option>
             </select>
             <div class="error-input">
               Please choose the starting point of your journey
             </div>
-          </li>
+          </fieldset>
 
-          <li class="order__item">
-            <p class="order__item-title">2. Personal information</p>
+          <fieldset class="order__item">
+            <legend class="order__item-title">2. Personal information</legend>
+
+            <label for="name" class="visually-hidden">Your name</label>
             <input
               class="order__input order__input-1"
               type="text"
+              name="name"
               placeholder="Your name"
               id="name"
+              required
             />
             <div class="error-input">Please enter your name</div>
+
+            <label for="phone-number" class="visually-hidden"
+              >Your phone number</label
+            >
             <input
               class="order__input order__input-1"
-              type="text"
+              type="tel"
+              name="phone"
               placeholder="Your phone number"
               id="phone-number"
+              required
             />
             <div class="error-input">Please enter your phone number</div>
+
+            <label for="email" class="visually-hidden">Your email</label>
             <input
               class="order__input"
               type="email"
+              name="email"
               placeholder="Your e-mail"
               id="email"
+              required
             />
             <div class="error-input">Please enter your email address</div>
-          </li>
+          </fieldset>
 
-          <li class="order__item">
-            <p class="order__item-title">3. Message</p>
+          <div class="order__item">
+            <p class="order__item-title">3. Message (optional)</p>
+
+            <label for="message" class="visually-hidden">Your message</label>
             <textarea
               class="order__input"
               id="message"
+              name="message"
               rows="3"
               placeholder="Please enter your message (optional)"
             ></textarea>
-          </li>
-        </ul>
+          </div>
+        </div>
         <button
-          type="button"
+          type="submit"
           class="btn order__btn hvr-box-shadow-inset"
           id="form-button"
         >
@@ -347,9 +402,8 @@
           Providing your information constitutes consent to the processing of
           your personal data in accordance with our privacy policy
         </p>
-      </div>
+      </form>
     </div>
-
 
     <section class="advantage" id="advantages">
       <div class="container advantage__container">
@@ -362,8 +416,8 @@
             <div class="shell">
               <img
                 class="advantage__image"
-                src="images/icon-airport.png"
-                alt="Airplane"
+                src="./images/icon-airport.png"
+                alt="Airplane icon representing airport delivery"
               />
               <h3 class="advantage__item-title">
                 Delivery to the airport or hotel
@@ -381,8 +435,8 @@
             <div class="shell">
               <img
                 class="advantage__image"
-                src="images/icon-travel-visa.png"
-                alt="Travel visa"
+                src="./images/icon-travel-visa.png"
+                alt="Passport with visa stamp icon representing flexible payment"
               />
               <h3 class="advantage__item-title">Flexible payment terms</h3>
             </div>
@@ -396,8 +450,8 @@
             <div class="shell">
               <img
                 class="advantage__image"
-                src="images/icon-head.png"
-                alt="Head"
+                src="./images/icon-head.png"
+                alt="Head with gears icon representing 24/7 support"
               />
               <h3 class="advantage__item-title">24/7 support after booking</h3>
             </div>
@@ -417,12 +471,12 @@
         <h2 class="sliders__title title">Our<span> fleet</span></h2>
         <div class="slider">
           <!-- 1 -->
-          <div class="slider-item">
+          <article class="slider-item">
             <div style="height: 510px">
               <img
-                src="images/car1.png"
+                src="./images/car1.png"
                 class="d-block w-100 h-auto"
-                alt="Lamborghini Aventador SVJ"
+                alt="Green Lamborghini Aventador SVJ"
               />
             </div>
             <div
@@ -438,15 +492,15 @@
                 Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
               </button>
             </div>
-          </div>
+          </article>
 
           <!-- 2 -->
-          <div class="slider-item">
+          <article class="slider-item">
             <div style="height: 510px">
               <img
-                src="images/car2.png"
+                src="./images/car2.png"
                 class="d-block w-100 h-auto"
-                alt="..."
+                alt="Yellow Lamborghini Aventador SVJ"
               />
             </div>
             <div
@@ -462,15 +516,15 @@
                 Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
               </button>
             </div>
-          </div>
+          </article>
 
           <!-- 3 -->
-          <div class="slider-item">
+          <article class="slider-item">
             <div style="height: 510px">
               <img
-                src="images/car3.png"
+                src="./images/car3.png"
                 class="d-block w-100 h-auto"
-                alt="..."
+                alt="Orange Lamborghini Aventador S Roadster"
               />
             </div>
             <div
@@ -486,15 +540,15 @@
                 Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
               </button>
             </div>
-          </div>
+          </article>
 
           <!-- 4 -->
-          <div class="slider-item">
+          <article class="slider-item">
             <div style="height: 510px">
               <img
-                src="images/car4.png"
+                src="./images/car4.png"
                 class="d-block w-100 h-auto"
-                alt="..."
+                alt="Orange Lamborghini Aventador S Roadster"
               />
             </div>
             <div
@@ -502,7 +556,7 @@
             >
               <div class="wrap-text">
                 <p class="card-name mb-2" data-product="4">
-                  Lamborghini Aventador SVJ Roadster Roadster
+                  Lamborghini Aventador SVJ Roadster
                 </p>
                 <p class="card-price mb-0">Daily rental cost: 1 350 $</p>
               </div>
@@ -510,7 +564,7 @@
                 Rent a car <i class="fa-regular fa-thumbs-up hvr-icon"></i>
               </button>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -524,7 +578,7 @@
           <div class="slider-clients__item">
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
-                <img src="images/client1.png" class="d-block w-100" alt="..." />
+                <img src="./images/client1.png" class="d-block w-100" alt="Customer Alex smiling" />
               </div>
               <p class="slider-clients__name">Alex</p>
             </div>
@@ -538,9 +592,9 @@
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
                 <img
-                  src="images/client2.png"
+                  src="./images/client2.png"
                   class="d-block w-100 position-relative"
-                  alt="..."
+                  alt="Customer Evan in sunglasses"
                 />
               </div>
               <p class="slider-clients__name">Evan</p>
@@ -556,9 +610,9 @@
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
                 <img
-                  src="images/client3.png"
+                  src="./images/client3.png"
                   class="d-block w-100 position-relative"
-                  alt="..."
+                  alt="Customer John with happy expression"
                 />
               </div>
               <p class="slider-clients__name">John</p>
@@ -574,9 +628,9 @@
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
                 <img
-                  src="images/client1.png"
+                  src="./images/client1.png"
                   class="d-block w-100 position-relative"
-                  alt="..."
+                  alt="Customer Max smiling"
                 />
               </div>
               <p class="slider-clients__name">Max</p>
@@ -591,9 +645,9 @@
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
                 <img
-                  src="images/client2.png"
+                  src="./images/client2.png"
                   class="d-block w-100 position-relative"
-                  alt="..."
+                  alt="Customer James looking confident"
                 />
               </div>
               <p class="slider-clients__name">James</p>
@@ -610,9 +664,9 @@
             <div class="d-flex align-items-center">
               <div class="slider-clients__inner-img">
                 <img
-                  src="images/client3.png"
+                  src="./images/client3.png"
                   class="d-block w-100 position-relative"
-                  alt="..."
+                  alt="Customer Nicholas giving thumbs up"
                 />
               </div>
               <p class="slider-clients__name">Nicholas</p>
@@ -624,7 +678,6 @@
               everyone.
             </p>
           </div>
-          <!--            </div>-->
         </div>
       </div>
     </section>
@@ -639,16 +692,16 @@
               href="https://goo.gl/maps/x2XzUZjiECGP79Rw9"
               >Scuderia Monte-Carlo, 5 Avenue, Monaco</a
             >
-            <a class="contacts__link" href="tel: +442203204030"
+            <a class="contacts__link" href="tel:+442203204030"
               >+44 220 320 4030</a
             >
-            <a class="contacts__link" href="mailto: reservations@carental.com"
+            <a class="contacts__link" href="mailto:reservations@carental.com"
               >reservations@carental.com</a
             >
           </div>
 
           <div class="contacts__image wow animate__heartBeat">
-            <img class="contacts__image-img" src="images/map.png" alt="Map" />
+            <img class="contacts__image-img" src="./images/map.png" alt="Map" />
             <div class="contacts__city contacts__city-1">
               <div class="contacts__city-point"></div>
               <p class="contacts__city-text">Fontvieille</p>
@@ -667,11 +720,11 @@
             <div class="contacts__image-inner">
               <p class="contacts__image-text">Car Rental № 1</p>
               <div class="contacts__image-stars">
-                <img src="images/star.png" alt="star" />
-                <img src="images/star.png" alt="star" />
-                <img src="images/star.png" alt="star" />
-                <img src="images/star.png" alt="star" />
-                <img src="images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
+                <img src="./images/star.png" alt="star" />
                 <span>(36)</span>
               </div>
             </div>
@@ -684,7 +737,7 @@
       <div class="container footer__container">
         <div class="logo footer__logo">
           <a class="logo__link" href="#">
-            <img src="images/logo.png" alt="flags" />
+            <img src="./images/logo.png" alt="CAR Rental logo - sports car emblem" />
             <span>CAR Rental</span>
           </a>
         </div>
@@ -751,31 +804,31 @@
           <div class="address__inner">
             <img
               class="address__icon"
-              src="images/phone-icon.png"
+              src="./images/phone-icon.png"
               alt="icon of phone"
             />
             <a
               class="contacts__link contacts__link-footer"
-              href="tel: +442203204030"
+              href="tel:+442203204030"
               >+44 220 320 4030</a
             >
           </div>
           <div class="address__inner">
             <img
               class="address__icon"
-              src="images/email-icon.png"
+              src="./images/email-icon.png"
               alt="icon of email"
             />
             <a
               class="contacts__link contacts__link-footer"
-              href="mailto: reservations@carental.com"
+              href="mailto:reservations@carental.com"
               >reservations@carental.com</a
             >
           </div>
           <div class="address__inner">
             <img
               class="address__icon"
-              src="images/place-icon.png"
+              src="./images/place-icon.png"
               alt="icon of place"
             />
             <a
@@ -803,14 +856,14 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
     <script src="
 https://cdn.jsdelivr.net/npm/jquery-mask-plugin@1.14.16/dist/jquery.mask.min.js
 "></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="scripts/wow.min.js"></script>
-    <script src="scripts/parallax.min.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script src="./scripts/parallax.min.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
