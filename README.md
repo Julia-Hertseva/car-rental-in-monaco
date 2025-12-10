@@ -4,22 +4,7 @@
 
 A modern, responsive website for luxury Lamborghini car rentals in Monaco. This project features an interactive car catalog, booking forms, rental conditions, and contact information.
 
-## Project Screenshots
-
-### 1. Main Page
-![Main Page](screenshots/demo1.jpg)
-
-### 2. Rental Section
-![Rental Section](screenshots/demo2.jpg)
-
-### 3. Fleet Carousel
-![Fleet Carousel](screenshots/demo3.jpg)
-
-### 4. Client Reviews
-![Client Reviews](screenshots/demo4.jpg)
-
-### 5. Contacts and Map
-![Contacts Section](screenshots/demo5.jpg)
+👉 **[Live Demo Website](https://julia-hertseva.github.io/car-rental-in-monaco/)**
 
 ## Features
 
@@ -40,9 +25,9 @@ A modern, responsive website for luxury Lamborghini car rentals in Monaco. This 
 |-----------|------------------|
 | **Frontend** | HTML5, CSS3 (SCSS), Bootstrap 5 |
 | **JavaScript** | jQuery, WOW.js, Animate.css, Slick Slider, Flatpickr, Parallax.js |
-| **Utilities** | Gulp, jQuery Mask Plugin |
+| **Utilities** | Gulp, jQuery Mask Plugin, BrowserSync |
 | **Icons** | Font Awesome |
-| **Build Tools** | Node.js, npm, Gulp |
+| **Build Tools** | Node.js, npm, Gulp, gh-pages |
 
 
 ## Getting Started
@@ -66,10 +51,9 @@ A modern, responsive website for luxury Lamborghini car rentals in Monaco. This 
 
 3. Compile SCSS to CSS:
   ```bash
+  npm start
+  # or
   gulp
-  ```
-
-4. Run locally:
-  ```bash
-  gulp watch
+  # or
+  gulp serve
   ```
