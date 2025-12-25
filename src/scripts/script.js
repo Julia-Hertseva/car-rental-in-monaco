@@ -2,13 +2,13 @@
 window.onload = function () {
   document.getElementById("burger").onclick = function () {
     document.getElementById("menu").classList.add("menu__open");
-    document.getElementById("header").classList.add("header__bg");
+    document.querySelector("header").classList.add("header__bg");
   };
 
   document.querySelectorAll("#menu *").forEach(item => {
     item.onclick = () => {
       document.getElementById("menu").classList.remove("menu__open");
-      document.getElementById("header").classList.remove("header__bg");
+      document.querySelector("header").classList.remove("header__bg");
     };
   });
 
@@ -126,7 +126,6 @@ window.onload = function () {
   let callbackPhone = $(`#callback-phone`);
   callbackPhone.mask("(000) 000-0000");
   $(`#callback-button`).on(`click`, function () {
-    // e.preventDefault();
 
     $(`.error-input`).hide();
     let hasErrorFirstForm = false;

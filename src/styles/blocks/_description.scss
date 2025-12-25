@@ -24,7 +24,7 @@
     .description__subtitle {
       position: relative;
       font-size: 20px;
-      font-family: Roboto-Bold, sans-serif;
+      font-family: $font-bold;
       color: $primary-color;
       font-weight: bold;
       line-height: 1.5;
@@ -38,13 +38,13 @@
         left: -80px;
         width: 50px;
         z-index: 1;
-        border-bottom: 1px solid #ffde46ff;
+        border-bottom: 1px solid $form-line-color;
       }
     }
 
     .description__text {
       font-size: 16px;
-      font-family: Roboto-Regular, sans-serif;
+      font-family: $font-main;
       color: $primary-color;
       line-height: 1.5;
       max-width: 488px;

@@ -1,4 +1,4 @@
-i.fa-chevron-up {
+.scroll-top {
   display: inline-block;
   background-color: $accent-orange;
   width: 50px;
@@ -14,21 +14,21 @@ i.fa-chevron-up {
   font-family: FontAwesome;
   font-size: 1.5em;
   line-height: 50px;
-  color: #fff;
+  color: $primary-color;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
-}
 
-i.fa-chevron-up:hover {
-  background-color: #333;
-}
+  &:hover {
+    background-color: $hover-button-color;
+  }
 
-i.fa-chevron-up:active {
-  background-color: #555;
-}
+  &:active {
+    background-color: $active-button-color;
+  }
 
-#button.show {
-  opacity: 1;
-  visibility: visible;
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }

@@ -1,6 +1,6 @@
 .footer {
   padding: 35px 0 50px 0;
-  border-top: 1px solid #000000;
+  border-top: 1px solid $black-color;
 
   &__container {
     display: flex;
@@ -14,7 +14,7 @@
 
   &-title {
     font-size: 16px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: $font-bold;
     color: $primary-color;
     line-height: 1.313;
     margin-bottom: 20px;
@@ -67,7 +67,7 @@
     }
 
     font-size: 14px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: $primary-color;
     line-height: 1.5;
     display: flex;

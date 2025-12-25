@@ -53,13 +53,13 @@
 
   .card-name {
     font-size: 20px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: $font-bold;
     color: $primary-color;
   }
 
   .card-price {
     font-size: 20px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: $primary-color;
   }
 }

@@ -17,7 +17,7 @@
 
   &__link {
     font-size: 20px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: $primary-color;
     line-height: 1.05;
 
@@ -48,12 +48,12 @@
       width: 149px;
       padding: 10px 0;
       flex-direction: column;
-      background-color: #ebe6e0;
+      background-color: $contact-color;
 
       &::before {
         content: "";
         border-left: 15px solid transparent;
-        border-top: 14px solid #ebe6e0;
+        border-top: 14px solid $contact-color;
         border-right: 15px solid transparent;
         position: absolute;
         bottom: -12px;
@@ -63,7 +63,7 @@
 
     &-text {
       font-size: 16px;
-      font-family: Roboto-Bold, sans-serif;
+      font-family: $font-bold;
       color: #463404;
       line-height: 1.313;
       margin-bottom: 0;
@@ -72,7 +72,7 @@
     &-stars {
       span {
         font-size: 14px;
-        font-family: Roboto-Bold, sans-serif;
+        font-family: $font-bold;
         color: #725c21;
         line-height: 1.5;
       }
@@ -109,8 +109,8 @@
     }
 
     font-size: 12px;
-    font-family: Roboto-Regular, sans-serif;
-    color: #000000;
+    font-family: $font-main;
+    color: $black-color;
     line-height: 1.667;
 
     &-1 {

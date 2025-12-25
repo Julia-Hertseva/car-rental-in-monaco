@@ -6,20 +6,20 @@ body {
 
 @keyframes hvr-back-pulse {
   50% {
-    background-color: #ffde46;
+    background-color: $accent-yellow;
   }
 }
 
 .hvr-back-pulse:hover {
-  background: #ff9800;
+  background: $accent-orange;
 }
 
 .hvr-shutter-out-horizontal:before {
-  background: #ff9800;
+  background: $accent-orange;
 }
 
 .hvr-icon-bounce:hover {
-  background-color: #ffde46;
+  background-color: $accent-yellow;
 }
 
 .fa-thumbs-up::before {

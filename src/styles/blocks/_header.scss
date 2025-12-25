@@ -1,6 +1,6 @@
 .header {
   padding: 25px 0 23px 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid $black-color;
 
   &__container {
     display: flex;
@@ -29,7 +29,7 @@
     &__link {
       font: {
         size: 14px;
-        family: Roboto-Regular, sans-serif;
+        family: $font-main;
       }
       line-height: 1.5;
       color: $primary-color;

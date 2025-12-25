@@ -36,15 +36,15 @@
 
     &-title {
       font-size: 20px;
-      font-family: Roboto-Bold, sans-serif;
-      color: #fffffe;
+      font-family: $font-bold;
+      color: $advantage-color;
       line-height: 1.25;
     }
 
     &-text {
       font-size: 16px;
-      font-family: Roboto-Regular, sans-serif;
-      color: #fffffe;
+      font-family: $font-main;
+      color: $advantage-color;
       line-height: 1.563;
     }
   }

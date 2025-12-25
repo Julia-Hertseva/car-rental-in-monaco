@@ -2,15 +2,15 @@
 .callback__form input:focus,
 .callback__form textarea:focus {
   outline: none;
-  box-shadow: 0 0 5px #e5c36a;
-  border-color: #e5c36a;
+  box-shadow: 0 0 5px $form-focus-border-color;
+  border-color: $form-focus-border-color;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .order,
 .callback {
   display: none;
-  background: rgba(0, 0, 0, 0.8);
+  background-color: $callback-bg-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background-color: rgb(24, 25, 26);
+    background-color: $callback__form-bg-color;
     margin: 150px auto 0;
     padding: 50px 0;
     max-width: 502px;
@@ -37,7 +37,7 @@
       left: 0;
       width: 22px;
       z-index: 1;
-      border-bottom: 1px solid #ffde46ff;
+      border-bottom: 1px solid $form-line-color;
     }
 
     &::after {
@@ -45,7 +45,7 @@
       position: absolute;
       width: 30px;
       z-index: 1;
-      border-bottom: 1px solid #ffde46ff;
+      border-bottom: 1px solid $form-line-color;
       bottom: 22px;
       right: 0;
     }
@@ -62,7 +62,7 @@
       justify-content: center;
       align-items: center;
       font-size: 30px;
-      font-family: Roboto-Regular, sans-serif;
+      font-family: $font-main;
       color: $primary-color;
       line-height: 1.167;
       z-index: 1001;
@@ -97,7 +97,7 @@
 
   &__subtitle {
     font-size: 18px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: $primary-color;
     line-height: 1.167;
     margin-bottom: 40px;
@@ -113,7 +113,7 @@
     &-title {
       margin-bottom: 20px;
       font-size: 15px;
-      font-family: Roboto-Bold, sans-serif;
+      font-family: $font-bold;
       color: $primary-color;
       line-height: 1.4;
     }
@@ -131,7 +131,7 @@
   &__input {
     width: 380px;
     font-size: 15px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: #beaf80;
     line-height: 1.4;
     background-color: inherit;
@@ -140,7 +140,7 @@
 
     &::placeholder {
       font-size: 15px;
-      font-family: Roboto-Regular, sans-serif;
+      font-family: $font-main;
       color: #c4bfba;
       line-height: 1.4;
     }
@@ -151,7 +151,7 @@
 
     option {
       font-size: 15px;
-      font-family: Roboto-Regular, sans-serif;
+      font-family: $font-main;
       color: $primary-color;
       line-height: 1.998;
       border-width: 1px;
@@ -166,7 +166,7 @@
     text-align: center;
     width: 351px;
     font-size: 13px;
-    font-family: Roboto-Regular, sans-serif;
+    font-family: $font-main;
     color: #c4bfba;
     text-decoration: underline;
     line-height: 1.616;
@@ -186,7 +186,7 @@
   width: 273px;
   height: 42px;
   font-size: 15px;
-  font-family: Roboto-Bold, sans-serif;
+  font-family: $font-bold;
   color: #212020;
   line-height: 1.4;
   border-radius: 0;
